@@ -72,6 +72,10 @@ a:visited {
     margin-left: 30px;
 }
 
+div {
+    display: block;
+}
+
 .buttons {
     padding-top: 19px;
     padding-left: 11.5px;
@@ -91,6 +95,16 @@ a:visited {
 
 .logoimg {
     padding-top: 109px;
+    padding-left: 57px;
+}
+
+.logosubtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: -62px;
+    position: relative;
+    top: 39px;
+    white-space: nowrap;
 }
 
 .searchbarimg {
