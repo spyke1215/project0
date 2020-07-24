@@ -4,8 +4,8 @@
 
 html {
     margin: 89px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 650px;
+    margin-right: 650px;
 }
 
 .logo {
@@ -16,6 +16,6 @@ html {
     padding-top: 30px;
 }
 
-.rounded {
-    border-radius: 1rem;
+.buttons {
+    padding-top: 30px
 }
