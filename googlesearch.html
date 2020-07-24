@@ -20,17 +20,26 @@
             <div class="container-fluid center logo">
                 <img src="googlelogo.png" alt="googlelogo">
             </div>
-            <div class="divsearch">
-                <div class="container-fluid center" style="height:118px;">
-                    <form class="form" action="https://google.com/search">
-                        <div class="searchbar">
-                                <input class="form-control form-control-lg rounded-pill" aria-autocomplete="both" type="text" name="q">
-                        </div>
-                        <div class="container-fluid buttons">
-                            <input type="submit" class="buttonstyle btn active " aria-label="Google Search" value="Google Search">
-                            <input type="submit" class="buttonstyle btn active " aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky"> 
-                        </div>
-                    </form>
+            <div class="searchbar">
+                <div class="roundborder">
+                    <div class="alignment">
+                        <form action="https://google.com/search">
+                            <div class="searchicon">
+                                <span class="iconimg">
+                                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="containter">
+                                <input class="searchinput" aria-autocomplete="both" type="text" name="q">
+                            </div>
+                            <div class="buttons center">
+                                <input type="submit" class="buttonstyle active " aria-label="Google Search" value="Google Search">
+                                <input type="submit" class="buttonstyle active " aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky"> 
+                            </div>
+                        </form>
+                    </div>    
                 </div>
             </div>
         </div>
