@@ -1,0 +1,21 @@
+.center {
+    text-align: center;
+}
+
+html {
+    margin: 89px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.logo {
+    padding-top: 109px;
+}
+
+.searchbar {
+    padding-top: 30px;
+}
+
+.rounded {
+    border-radius: 1rem;
+}
