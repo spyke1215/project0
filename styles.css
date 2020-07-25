@@ -10,6 +10,83 @@ a:visited {
     text-decoration: none;
 }
 
+.pages {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.blank {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.spacing {
+    clear: both;
+}
+
+.first {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.searchboxtext {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.advheader {
+    margin-left: 10px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 21px 35px;
+}
+
+.marginline {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advhead {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.topleftlogo {
+    background-position: 0 -35px;
+    height: 33px;
+    width: 92px;
+    display: block;
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+}
+
+.leftbutton {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    line-height: 0;
+    outline: none;
+    vertical-align: middle;
+}
+
+.topleftlogoalign {
+    position: absolute;
+    padding: 0 20px 0 15px;
+    padding-top: 13px;
+}
+
 .roundborder {
     background: #fff;
     display: flex;
