@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="icon" href="googleicontitle.png">
+    </head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <body>
+        <!-- google logo -->
+        <div class="advhead"> 
+            <div class="topleftlogoalign">
+                <a class="leftbutton" aria-label="Google" href="googlesearch.html" title="Go to Google Home">
+                    <span class="topleftlogo"></span>
+                </a>
+            </div>
+            <!-- link to google search page -->
+            <div class="toprightlink">
+                <a class="link" href="googlesearch.html">Search</a>
+            </div>
+        </div>
+        <div class="appbar">
+            <label class="advheader">Advanced Search</label>
+        </div>
+        <div class="marginline"></div>
+
+        
+        <div class="pages">
+            <form action="/search" method="GET" name="f">
+
+                <!-- heading row -->
+                <div class="row spacingheader">
+                    <div class="col-4">
+                        <span>Find pages with...</span>
+                    </div>
+                    <div class="col-4">
+                    </div>
+                    <div class="col-4 rightstylehead spacingheader2">To do this in the search box.</div>
+                </div>
+
+                <!-- first row -->
+                <div class="row toppadding spacing">
+                    <div class="col-4 leftstyle">
+                        <span>all these words:</span>
+                    </div>
+                    <div class="col-4">
+                        <input class="middlestyle" value autofocus="autofocus" id="xX4UFf" name="as_q" type="text">
+                    </div>
+                    <div class="col-4 helptext">Type the important words: tri-colour rat terrier</div>
+                </div>
+                
+                <!-- second row -->
+                <div class="row toppadding spacing">
+                    <div class="col-4 leftstyle">
+                        <span>this exact word or phrase:</span>
+                    </div>
+                    <div class="col-4">
+                        <input class="middlestyle" value id="CwYCWc" name="as_epq" type="text">
+                    </div>
+                    <div class="col-4 helptext">Put exact words in quotes: "rat terrier"</div>
+                </div>
+
+                <!-- third row -->
+                <div class="row toppadding spacing">
+                    <div class="col-4 leftstyle">
+                        <span>any of these words:</span>
+                    </div>
+                    <div class="col-4">
+                        <input class="middlestyle" value id="mSoczb" name="as_oq" type="text">
+                    </div>
+                    <div class="col-4 helptext">Type OR between all the words you want: miniature OR standard.</div>
+                </div>
+
+                <!-- fourth row -->
+                <div class="row toppadding spacing">
+                    <div class="col-4 leftstyle">
+                        <span>none of these words:</span>
+                    </div>
+                    <div class="col-4">
+                        <input class="middlestyle" value id="t2dX1c" name="as_eq" type="text">
+                    </div>
+                    <div class="col-4 helptext">Put a minus sign just before words that you don't want:
+                    <span style="text-align: left; margin-left: -133px;">-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <input class="advancebutton"  value="Advanced Search" type="submit">
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+
+            </form>
+        </div>
+        
+
+    </body>
+</html>
