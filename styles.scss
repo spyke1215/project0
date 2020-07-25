@@ -228,7 +228,6 @@ a:visited {
 
 %searchinput {
     background-color: transparent;
-    border: none;
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
     outline: none;
@@ -243,7 +242,7 @@ a:visited {
 .searchin {
     @extend %searchinput;
     width: 500px;
-    margin-top: -28px;
+    margin-top: -44px;
     margin-left: 30px;
 }
 
